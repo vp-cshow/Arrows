@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/holo_red_light"
+    tools:context=".RoomActivity">
+
+    <TextView
+        android:id="@+id/roomTitleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:text="TextView"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/roomCodeView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="26sp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/creatorView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textSize="26sp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/listenerCountView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Exit" />
+
+    <FrameLayout
+        android:id="@+id/padContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+
+</LinearLayout>
